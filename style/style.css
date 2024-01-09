@@ -1,3 +1,90 @@
-body{
-        background-color: brown;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap', 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap');
+
+.container .banner-image {
+    margin: 0 auto;
+    background-image: url('../resources/Banner-image.png');
+    width: 100%;
+    max-width: 1320px;
+    color: hsl(60, 3%, 6%);
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container .banner-image p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 233px;
+    padding-left: 530px;
+    padding-right: 530px;
+    color: #0f0e0e;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.container .banner-image h2 {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 140px;
+    padding-left: 400px;
+    padding-right: 400px;
+    color: #222121;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+}
+
+.off {
+    text-align: center;
+}
+
+.off h2 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.off p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+.off h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 0px;
+    margin-top: 0;
+}
+
+.off img {
+    width: 802.9px;
+    height: 500px;
+    justify-content: center;
+}
+.off img:hover{
+    border: 1px solid #F00;
 }
