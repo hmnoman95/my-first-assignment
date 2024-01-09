@@ -88,21 +88,45 @@
 }
 
 .welcome {
-    position: relative;
+    background-image: url('../resources/Vectorrr.png');
+    /* position: relative; */
     text-align: center;
-}
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1320px;}
 
-.welcome-text {
-    position: absolute;
+.welcome-text h2 {
     color: #FFF;
     font-family: Merriweather;
-    font-size: 64px;
+    font-size: 54px;
     font-style: normal;
     font-weight: 900;
-    line-height: 88px;
-    letter-spacing: 7.04px;
-    top: 226px;
+    line-height: 1.25em;
+    letter-spacing: 8.5px;
+    padding: 126px 552px 0px 186px;
+    text-align: left;
+    margin-bottom: 2px;
+}
+
+.welcome .welcome-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0px 552px 0px 186px;
+    text-align: left;
+}
+.welcome-text button {
+    /* position: absolute; */
+    /* top: 320px;
     bottom: 298px;
-    left: 126px;
-    right: 552px;
+    left: 580px;
+    right: 850px; */
+    text-align: left;
+    padding: 0 0 0 0;
+    margin: 0px 1050px 250px 186px;
+    ;
 }
